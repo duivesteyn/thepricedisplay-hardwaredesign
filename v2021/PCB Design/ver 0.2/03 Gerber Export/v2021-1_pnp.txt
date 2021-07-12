@@ -1,0 +1,42 @@
+*Pick And Place List
+*Company=
+*Author=
+*eMail=
+*
+*Project=v2021-1
+*Date=22:06:56
+*CreatedBy=Fritzing 0.9.4.2019-12-01.CD-498-0-a1ffcea
+*
+*
+*Coordinates in mm, always center of component
+*Origin 0/0=Lower left corner of PCB
+*Rotation in degree (0-360, math. pos.)
+*
+*No;Value;Package;X;Y;Rotation;Side;Name
+1;;;18.0284;-3.81624;0;Bottom;TXT1
+2;;;42.1074;-24.2977;0;Bottom;TXT1
+3;;;76.2907;-6.96773;0;Bottom;TXT1
+4;;;18.1695;-8.84921;0;Bottom;TXT1
+5;;;22.1984;-25.9932;0;Bottom;TXT1
+6;;;18.076;-21.5742;0;Bottom;TXT1
+7;;;64.8607;-14.1174;0;Bottom;Via1
+8;;THT;11.5207;-12.8474;0;Bottom;J6
+9;;;3.90066;-1.41735;0;Top; 
+10;;;34.3807;-21.7374;0;Bottom;Via4
+11;;;85.5099;-16.8455;0;Bottom;TXT3
+12;;;87.6369;-14.0233;-90;Bottom;TXT1
+13;;;41.9076;-3.37412;0;Bottom;TXT1
+14;;;18.1695;-19.1503;0;Bottom;TXT1
+15;;THT;64.8607;-1.41735;-90;Bottom;J5
+16;;THT;64.8607;-26.5351;-90;Bottom;J4
+17;;;18.1593;-11.3455;0;Bottom;TXT1
+18;;;36.9207;-19.1974;0;Bottom;Via3
+19;;;54.7007;-16.6574;0;Bottom;Via2
+20;;;18.1695;-6.54439;0;Bottom;TXT1
+21;;;85.1336;-4.5218;0;Bottom;TXT1
+22;;;64.8525;-15.8577;0;Bottom;TXT1
+23;;;30.5147;-23.8951;0;Bottom;TXT1
+24;;;3.90066;-24.2774;0;Top; 
+25;;;18.1391;-13.8822;0;Bottom;TXT1
+26;;;18.1391;-16.4692;0;Bottom;TXT1
+27;;;65.4721;-19.8088;0;Bottom;TXT2

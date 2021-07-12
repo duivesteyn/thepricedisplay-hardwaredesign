@@ -32,13 +32,13 @@ Unit cost needs to be less than $30!
 * waveshare screen (2.9")                                                     $25
 * ESP Dev Board                                                               $5
 * 8 pin cable from screen to adapter board (8pin, PH (2.0) and 15cm long!)    $1
-* Custom Adapter board PCB -> To design!                                      $??? 
+* Custom Adapter board PCB -> To design!                                      $31 for 10! so $3.1 
 * JST Connector which goes onto custom PCB (S8B-PH-SM4-TB)                    $0.1                    
 * Case!!!                                                                     ????
 
 ## v2021 Part Orders
 * TODO: Screens
-* TODO: PCB
+* PCB
 * Boards: Confirmed 10x 38pin (FEIYANG). Already have 2x
 * 8pin cable - Ordered 20x
 * JST Connectors. I have. Needs to be soldered onto pcbs!
@@ -48,7 +48,7 @@ The pins used on the esp32 Dev board to the Waveshare for working code are as fo
 
 ## Power Usage
 * Sleeps most of the time. So its very power efficient.
-* when updating it uses 0.04A (at 5V)   using it for an hour on the PC consumed 13mah.
+* when updating it uses 0.04A (at 5V) using it for an hour on the PC consumed 13mah.
     - i.e. 17.5hrs of continual updating on a 700mah battery! which is only ~1-2% of the total cycle of the device! i.e. battery power is very effective.
 
 ## e-Paper Wire     ESP32 Pin
@@ -61,11 +61,11 @@ The pins used on the esp32 Dev board to the Waveshare for working code are as fo
 * RST              GPIO26
 * BUSY             GPIO25
 
-Custom PCB 
-## Text
-* bmd 2021
-* thepricedisplay.com
-* V2021
+## Custom PCB 
+
+explain more here.
+
+![Custom PCB I made](v2021/PCB%20Design/ver%200.2/v2021-1_pcb.png)
 
 
 ## TODO
