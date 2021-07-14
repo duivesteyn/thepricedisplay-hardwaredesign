@@ -52,14 +52,14 @@ The pins used on the esp32 Dev board to the Waveshare for working code are as fo
     - i.e. 17.5hrs of continual updating on a 700mah battery! which is only ~1-2% of the total cycle of the device! i.e. battery power is very effective.
 
 ## e-Paper Wire     ESP32 Pin
-* VCC              3.3V
-* GND              GND
-* DIN              GPIO14
-* CLK              GPIO13
-* CS               GPIO15
-* DC               GPIO27
-* RST              GPIO26
-* BUSY             GPIO25
+* VCC              3.3V         [Grey]
+* GND              GND          [Brown]
+* DIN              GPIO14       [Blue]
+* CLK              GPIO13       [Yellow]
+* CS               GPIO15       [Orange]
+* DC               GPIO27       [Green]
+* RST              GPIO26       [White]
+* BUSY             GPIO25       [Purple]
 
 ## Custom PCB 
 
