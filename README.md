@@ -67,10 +67,7 @@ explain more here.
 
 ![Custom PCB I made](v2021/PCB%20Design/ver%200.2/v2021-1_pcb.png)
 
-
-## TODO
-* Thicker than previous
-* Wider than previous
+Font = OCR-A (same as what is used in fritzing)
 
 ## Case Design
 

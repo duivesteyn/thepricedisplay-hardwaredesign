@@ -1,0 +1,165 @@
+Plot Report
+-----------
+
+Report Written:     Friday, August 06, 2021
+Design Path:        C:\Users\Ben\Documents\GitHub\thepricedisplay-hardwaredesign\v2021\PCB Design\ver 0.2\01 DesignSpark PCB Work\v2021rev2.pcb
+Design Title:       
+Created:            6/08/2021 13:50:52
+Last Saved:         6/08/2021 19:18:09
+Editing Time:       318 min
+Units:              mm (precision 0)
+
+
+Device Settings
+===============
+
+
+Gerber Settings
+===============
+
+    Leading zero suppression.
+    G01 assumed throughout.
+    Line termination <*> <CR> <LF>.
+    3.5 format absolute inches.
+    Format commands defined in Gerber file.
+    Aperture table defined in Gerber file.
+    Hardware arcs allowed.
+
+
+PDF Settings
+============
+
+Combine Plots Yes
+Use Bookmarks Yes
+Component Details Yes
+Symbol Details Yes
+Link Net Names Yes
+View PDF Yes
+All Colors Black No
+Embed Fonts Yes
+
+
+
+Plots Output
+============
+
+    Plot Job: "C:\Users\Ben\Documents\GitHub\thepricedisplay-hardwaredesign\v2021\PCB Design\ver 0.2\01 DesignSpark PCB Work\v2021rev2.mop"
+
+
+PDF Output
+==========
+
+    Layer
+    ---------------
+    Top Silkscreen
+
+
+PDF Output
+==========
+
+    Layer
+    ----------
+    Top Paste
+
+
+PDF Output
+==========
+
+    Layer
+    -----------
+    Top Copper
+
+
+PDF Output
+==========
+
+    Layer
+    -----------
+    Top Resist
+
+
+PDF Output
+==========
+
+    Layer
+    --------------
+    Bottom Copper
+
+
+PDF Output
+==========
+
+    Layer
+    ------------------
+    Bottom Silkscreen
+
+
+PDF Output
+==========
+
+    Layer
+    -------------
+    Bottom Paste
+
+
+PDF Output
+==========
+
+    Layer
+    --------------
+    Bottom Resist
+
+
+PDF Output
+==========
+
+    Layer
+    --------------
+    Documentation
+
+
+Gerber Output
+=============
+
+C:\Users\Ben\Documents\GitHub\thepricedisplay-hardwaredesign\v2021\PCB Design\ver 0.2\01 DesignSpark PCB Work\v2021rev2 - Gerber Drill Data - [Through Hole].gbr
+
+    Layers:
+    ------------------
+    [Through Hole]
+
+    D-Code Shape  (thou)
+    -----------------------
+    D26    Round 24.00
+    D27    Round 40.94
+
+Gerber Output
+=============
+
+C:\Users\Ben\Documents\GitHub\thepricedisplay-hardwaredesign\v2021\PCB Design\ver 0.2\01 DesignSpark PCB Work\v2021rev2 - NC Drill Data - [Through Hole].gbr
+
+    Layers:
+    ------------------
+    [Through Hole]
+
+    D-Code Shape  (thou)
+    -----------------------
+    D26    Round 24.00
+    D27    Round 40.94
+
+PDF Output
+==========
+
+    Layer
+    ------
+
+Drill Ident Drawing
+===================
+
+    Drill Plated Size Shape ID
+    -----------------------------------
+    1     Y      3    Round A
+    1     Y      3    Round B
+
+
+
+End Of Report.

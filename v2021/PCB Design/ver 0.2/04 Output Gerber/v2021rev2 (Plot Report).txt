@@ -1,0 +1,226 @@
+Plot Report
+-----------
+
+Report Written:     Friday, August 06, 2021
+Design Path:        C:\Users\Ben\Desktop\tpd\v2021rev2.pcb
+Design Title:       
+Created:            6/08/2021 13:50:52
+Last Saved:         6/08/2021 18:27:35
+Editing Time:       295 min
+Units:              mm (precision 0)
+
+
+Device Settings
+===============
+
+
+Gerber Settings
+===============
+
+    Leading zero suppression.
+    G01 assumed throughout.
+    Line termination <*> <CR> <LF>.
+    3.5 format absolute inches.
+    Format commands defined in Gerber file.
+    Aperture table defined in Gerber file.
+    Hardware arcs allowed.
+
+
+
+Plots Output
+============
+
+    Plot Job: "C:\Users\Ben\Desktop\tpd\v2021rev2.mop"
+
+
+Gerber Output
+=============
+
+C:\Users\Ben\Desktop\tpd\v2021rev2 - Top Silkscreen.gbr
+
+    Layers:
+    ------------------
+    Top Silkscreen
+    Board Outlines
+
+    D-Code Shape  (thou)
+    -----------------------
+    D10    Round 6.00
+    D12    Round 3.00
+    D13    Round 1.00
+    D25    Round 5.00
+
+Gerber Output
+=============
+
+C:\Users\Ben\Desktop\tpd\v2021rev2 - Top Paste.gbr
+
+    Layers:
+    -------------
+    Top Paste
+
+    D-Code Shape  (thou)
+    -----------------------------------------------
+    D14    Rectangle 56.70 X 131.70  Rotation 90
+    D15    Rectangle 35.10 X 134.10  Rotation 90
+
+Gerber Output
+=============
+
+C:\Users\Ben\Desktop\tpd\v2021rev2 - Top Copper.gbr
+
+    Layers:
+    --------------
+    Top Copper
+
+    D-Code Shape  (thou)
+    -----------------------------------------------
+    D16    Round 15.00
+    D17    Round 48.00
+    D18    Rectangle 63.00 X 138.00  Rotation 90
+    D19    Rectangle 39.00 X 138.00  Rotation 90
+    D70    Round 61.42
+    D71    Square 61.42
+
+Gerber Output
+=============
+
+C:\Users\Ben\Desktop\tpd\v2021rev2 - Top Resist.gbr
+
+    Layers:
+    --------------
+    Top Resist
+
+    D-Code Shape  (thou)
+    -----------------------------------------------
+    D20    Round 54.30
+    D21    Rectangle 69.30 X 144.30  Rotation 90
+    D22    Rectangle 45.30 X 144.30  Rotation 90
+    D23    Round 67.72
+    D24    Square 67.72
+
+Gerber Output
+=============
+
+C:\Users\Ben\Desktop\tpd\v2021rev2 - Bottom Copper.gbr
+
+    Layers:
+    -----------------
+    Bottom Copper
+
+    D-Code Shape  (thou)
+    -----------------------
+    D16    Round 15.00
+    D17    Round 48.00
+    D70    Round 61.42
+    D71    Square 61.42
+
+Gerber Output
+=============
+
+C:\Users\Ben\Desktop\tpd\v2021rev2 - Bottom Silkscreen.gbr
+
+    Layers:
+    ---------------------
+    Bottom Silkscreen
+    Board Outlines
+
+    D-Code Shape  (thou)
+    -----------------------
+    D13    Round 1.00
+    D25    Round 5.00
+
+Gerber Output
+=============
+
+C:\Users\Ben\Desktop\tpd\v2021rev2 - Bottom Paste.gbr
+
+    Layers:
+    ----------------
+    Bottom Paste
+
+    D-Code Shape  (thou)
+    -----------------------
+
+Gerber Output
+=============
+
+C:\Users\Ben\Desktop\tpd\v2021rev2 - Bottom Resist.gbr
+
+    Layers:
+    -----------------
+    Bottom Resist
+
+    D-Code Shape  (thou)
+    -----------------------
+    D20    Round 54.30
+    D23    Round 67.72
+    D24    Square 67.72
+
+Gerber Output
+=============
+
+C:\Users\Ben\Desktop\tpd\v2021rev2 - Documentation.gbr
+
+    Layers:
+    ------------------
+    Documentation
+    Board Outlines
+
+    D-Code Shape  (thou)
+    -----------------------
+    D13    Round 1.00
+    D25    Round 5.00
+
+Gerber Output
+=============
+
+C:\Users\Ben\Desktop\tpd\v2021rev2 - Gerber Drill Data - [Through Hole].gbr
+
+    Layers:
+    ------------------
+    [Through Hole]
+
+    D-Code Shape  (thou)
+    -----------------------
+    D26    Round 24.00
+    D27    Round 40.94
+
+Gerber Output
+=============
+
+C:\Users\Ben\Desktop\tpd\v2021rev2 - NC Drill Data - [Through Hole].gbr
+
+    Layers:
+    ------------------
+    [Through Hole]
+
+    D-Code Shape  (thou)
+    -----------------------
+    D26    Round 24.00
+    D27    Round 40.94
+
+Gerber Output
+=============
+
+C:\Users\Ben\Desktop\tpd\v2021rev2 - Drill Ident Drawing - [Through Hole].gbr
+
+    Layers:
+    ------------------
+    [Through Hole]
+
+
+Drill Ident Drawing
+===================
+
+    Drill Plated Size Shape ID
+    -----------------------------------
+    24    Y      100  Round A
+    41    Y      100  Round B
+
+    D-Code Shape  (thou)
+    -----------------------
+    D25    Round 5.00
+    D28    Round 100.00
+
+End Of Report.
