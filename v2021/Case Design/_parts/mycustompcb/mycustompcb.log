@@ -1,0 +1,30 @@
+Solid Edge Translation to STEP
+Date: Saturday,August 07,2021 06:21PM
+Output File: C:\Users\Ben\Documents\GitHub\thepricedisplay-hardwaredesign\v2021\Case Design\_parts\mycustompcb\mycustompcb.stp
+Author: Unknown
+Organization: Unknown
+Source System: Solid Edge
+
+Hardware:
+Processor: Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz
+Operating System: Windows 8
+Installed Memory: 7.86 GB
+
+Software Information
+Parasolid Version: 30.0.167
+PSBodyShop Version: 30.0.81
+Step Adapter Version: 3.0.52
+Solid Edge Version: 110.00.00.107 x64
+
+STEP Export Options
+Export Format: AP214
+Export Construction Sheets: Off
+Export Construction Solids: Off
+Export Construction Wires: Off
+Export Displayed Parts Only: Off
+Export Units: Millimeters
+Export Part Component Names As Unicode: Off
+
+Phase 1 of 1 Translating Parasolid to foreign data types...
+Translation process completed
+Time required to translate:00 : 00 : 00
