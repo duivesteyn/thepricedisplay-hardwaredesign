@@ -1,0 +1,76 @@
+STEP translation to Solid Edge
+Date: Monday,August 16,2021 07:36PM
+Source File: C:\Users\Ben\Documents\GitHub\thepricedisplay-hardwaredesign\v2021\Case Design\_parts\esp32-38-pines-esp-wroom-32-1.snapshot.6\PCB_ESP32-38Pines.step
+Author: Unknown
+Organization: Unknown
+Source System: Autodesk Translation Framework v9.3.0.1241
+
+Hardware:
+Processor: Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz
+Operating System: Windows 8
+Installed Memory: 7.86 GB
+
+Software Information
+Parasolid Version: 30.0.167
+PSBodyShop Version: 30.0.81
+Step Adapter Version: 3.0.52
+Solid Edge Version: 110.00.00.107 x64
+
+Step Import Options
+Import Faceted Bodies: On
+Import Check Bodies: Off
+Import Curves: On
+Import DoNotSave: On
+Import Multiple Bodies As Single Part File: On
+Import Stitch Surfaces: On
+Import Boolean Solids: On
+Make Base Feature: On
+Simplify Geometry: On
+Import Imprint Curves: On
+Import Drive: C:
+Import Stitch Surfaces: On
+Import Surfaces: On
+Import Output Path: C:\Users\Ben\Documents\GitHub\thepricedisplay-hardwaredesign\v2021\Case Design\_parts\esp32-38-pines-esp-wroom-32-1.snapshot.6
+Import Enable Default Output Path: On
+Import Path: 
+
+Translating to Parasolid data types...
++Begin Assembly: 1
++Created SE Assembly File C:\Users\Ben\Documents\GitHub\thepricedisplay-hardwaredesign\v2021\Case Design\_parts\esp32-38-pines-esp-wroom-32-1.snapshot.6\PCB_ESP32-38Pines.asm
+|--+Created SE Part File C:\Users\Ben\Documents\GitHub\thepricedisplay-hardwaredesign\v2021\Case Design\_parts\esp32-38-pines-esp-wroom-32-1.snapshot.par
+|--+Created SE Part File C:\Users\Ben\Documents\GitHub\thepricedisplay-hardwaredesign\v2021\Case Design\_parts\esp32-38-pines-esp-wroom-32-1.snapshot.6\MicroUSB.par
+|--+Created SE Part File C:\Users\Ben\Documents\GitHub\thepricedisplay-hardwaredesign\v2021\Case Design\_parts\esp32-38-pines-esp-wroom-32-1.snapshot.6\esp32.par
+|--+Created SE Part File C:\Users\Ben\Documents\GitHub\thepricedisplay-hardwaredesign\v2021\Case Design\_parts\esp32-38-pines-esp-wroom-32-1.snapshot.6\AMS1173.3V.par
+|--+Created SE Part File C:\Users\Ben\Documents\GitHub\thepricedisplay-hardwaredesign\v2021\Case Design\_parts\esp32-38-pines-esp-wroom-32-1.snapshot.6\cp2102.par
+|--+Created SE Part File C:\Users\Ben\Documents\GitHub\thepricedisplay-hardwaredesign\v2021\Case Design\_parts\esp32-38-pines-esp-wroom-32-1.snapshot.6\Push_Bottom.par
+|--+Reusing File C:\Users\Ben\Documents\GitHub\thepricedisplay-hardwaredesign\v2021\Case Design\_parts\esp32-38-pines-esp-wroom-32-1.snapshot.6\Push_Bottom.par
+|--+Created SE Part File C:\Users\Ben\Documents\GitHub\thepricedisplay-hardwaredesign\v2021\Case Design\_parts\esp32-38-pines-esp-wroom-32-1.snapshot.6\Diodo_K24.par
+|--+Created SE Part File C:\Users\Ben\Documents\GitHub\thepricedisplay-hardwaredesign\v2021\Case Design\_parts\esp32-38-pines-esp-wroom-32-1.snapshot.6\Cap_Tam_106.par
+|--+Created SE Part File C:\Users\Ben\Documents\GitHub\thepricedisplay-hardwaredesign\v2021\Case Design\_parts\esp32-38-pines-esp-wroom-32-1.snapshot.6\Cap_Tam_106C.par
+|--+Created SE Part File C:\Users\Ben\Documents\GitHub\thepricedisplay-hardwaredesign\v2021\Case Design\_parts\esp32-38-pines-esp-wroom-32-1.snapshot.6\Transistor_smd.par
+|--+Reusing File C:\Users\Ben\Documents\GitHub\thepricedisplay-hardwaredesign\v2021\Case Design\_parts\esp32-38-pines-esp-wroom-32-1.snapshot.6\Transistor_smd.par
+|--+Created SE Part File C:\Users\Ben\Documents\GitHub\thepricedisplay-hardwaredesign\v2021\Case Design\_parts\esp32-38-pines-esp-wroom-32-1.snapshot.6\Led_red_0603.par
+|--+Created SE Part File C:\Users\Ben\Documents\GitHub\thepricedisplay-hardwaredesign\v2021\Case Design\_parts\esp32-38-pines-esp-wroom-32-1.snapshot.6\Cap_0603.par
+|--+Reusing File C:\Users\Ben\Documents\GitHub\thepricedisplay-hardwaredesign\v2021\Case Design\_parts\esp32-38-pines-esp-wroom-32-1.snapshot.6\Cap_0603.par
+|--+Reusing File C:\Users\Ben\Documents\GitHub\thepricedisplay-hardwaredesign\v2021\Case Design\_parts\esp32-38-pines-esp-wroom-32-1.snapshot.6\Cap_0603.par
+|--+Reusing File C:\Users\Ben\Documents\GitHub\thepricedisplay-hardwaredesign\v2021\Case Design\_parts\esp32-38-pines-esp-wroom-32-1.snapshot.6\Cap_0603.par
+|--+Created SE Part File C:\Users\Ben\Documents\GitHub\thepricedisplay-hardwaredesign\v2021\Case Design\_parts\esp32-38-pines-esp-wroom-32-1.snapshot.6\Res_102.par
+|--+Created SE Part File C:\Users\Ben\Documents\GitHub\thepricedisplay-hardwaredesign\v2021\Case Design\_parts\esp32-38-pines-esp-wroom-32-1.snapshot.6\Res_123.par
+|--+Reusing File C:\Users\Ben\Documents\GitHub\thepricedisplay-hardwaredesign\v2021\Case Design\_parts\esp32-38-pines-esp-wroom-32-1.snapshot.6\Res_123.par
+|--+Created SE Part File C:\Users\Ben\Documents\GitHub\thepricedisplay-hardwaredesign\v2021\Case Design\_parts\esp32-38-pines-esp-wroom-32-1.snapshot.6\Res_471.par
+|--+Reusing File C:\Users\Ben\Documents\GitHub\thepricedisplay-hardwaredesign\v2021\Case Design\_parts\esp32-38-pines-esp-wroom-32-1.snapshot.6\Res_471.par
+|--+Reusing File C:\Users\Ben\Documents\GitHub\thepricedisplay-hardwaredesign\v2021\Case Design\_parts\esp32-38-pines-esp-wroom-32-1.snapshot.6\Res_471.par
+|--+Reusing File C:\Users\Ben\Documents\GitHub\thepricedisplay-hardwaredesign\v2021\Case Design\_parts\esp32-38-pines-esp-wroom-32-1.snapshot.6\Res_471.par
+|--+Reusing File C:\Users\Ben\Documents\GitHub\thepricedisplay-hardwaredesign\v2021\Case Design\_parts\esp32-38-pines-esp-wroom-32-1.snapshot.6\Res_123.par
+|--+Created SE Part File C:\Users\Ben\Documents\GitHub\thepricedisplay-hardwaredesign\v2021\Case Design\_parts\esp32-38-pines-esp-wroom-32-1.snapshot.6\Res_512.par
+|--+Reusing File C:\Users\Ben\Documents\GitHub\thepricedisplay-hardwaredesign\v2021\Case Design\_parts\esp32-38-pines-esp-wroom-32-1.snapshot.6\Res_512.par
+|--+Reusing File C:\Users\Ben\Documents\GitHub\thepricedisplay-hardwaredesign\v2021\Case Design\_parts\esp32-38-pines-esp-wroom-32-1.snapshot.6\Cap_0603.par
+|--+Reusing File C:\Users\Ben\Documents\GitHub\thepricedisplay-hardwaredesign\v2021\Case Design\_parts\esp32-38-pines-esp-wroom-32-1.snapshot.6\Cap_0603.par
+|--+Reusing File C:\Users\Ben\Documents\GitHub\thepricedisplay-hardwaredesign\v2021\Case Design\_parts\esp32-38-pines-esp-wroom-32-1.snapshot.6\Cap_0603.par
++Total Parts: 1,680
++Assemblies: 0
++Solid Bodies: 1,680
++Sheet Bodies: 0
++End Assembly: 1
+Translation process completed
+Total time required to translate and post process:00 : 01 : 13
