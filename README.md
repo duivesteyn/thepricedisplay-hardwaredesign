@@ -26,26 +26,33 @@ Goal:
 * No Battery. Was originally going to have a battery, however the dev boards with orthagonal JST battery connector are not available. I need the USB port to be on a seperate plain to the 2pin battery jst. (USB will extrude through case and JST should be internal). Oh well leave this for ver 2.
 
 ## BOM
-| Part                                                                         | Cost|
-| --- | ----------- |
-| waveshare screen (2.9")                                                      | $25| 
-| ESP Dev Board                                                                | $5|
-| 8 pin cable from screen to adapter board (8pin, PH (2.0) and 15cm long!)     | $1|
-| Custom Adapter board PCB                                                     | $31 for 10! so $3.1 |
-| JST Connector which goes onto custom PCB (S8B-PH-SM4-TB)                     | $0.1 |               
-|Case!!!                                                                       | $15
-|TOTAL                                                                         | $75 |
+| Part                                                                        | Cost ea   |
+| ----------------------------------------------------------------------------| ----------|
+| waveshare screen (2.9")                                                     | $25       | 
+| ESP Dev Board                                                               | $5        |
+| 8 pin cable from screen to adapter board (8pin, PH (2.0) and 15cm long!)    | $1        |
+| Custom Adapter board PCB  ($30/10)                                          | $3.1      |
+| JST Connector which goes onto custom PCB (S8B-PH-SM4-TB)                    | $0.1      |               
+| Case!!!                                                                     | $15       |
+| TOTAL                                                                       | $75       |
 
 ## v2021 Part Orders
-|Item                |Quantity Needed| Ordered/Have |
-|--------------------|---------------|--------------|
-| Screens            |  10           | 1            |
-| PCB                |  10           | 0            | 
-| FEIYANG Board 38pin| 10            | 10           |
-| 8pin cable         |  10           | 20           |
-| JST Connectors.    | 20            | 20           |
-| Screws             | TBA           | 0            |
+
+BOM for 10 items:
+
+| Part                                               |Quantity Needed| Ordered/Have |
+|----------------------------------------------------|---------------|--------------|
+| Screens                                            | 10            | 1            |
+| PCB                                                | 10            | 10           | 
+| FEIYANG Board 38pin                                | 10            | 10           |
+| PH2.0 Female Double head Connector 10cm Long, 8pin | 10            | 20           |
+| JST Connector S8B-PH-SM4-TB                        | 20            | 20           |
+| Screws 1.5mm x 5mm - Small End! (2.0mm hole)       | 20            | 50           |
+| Screws 2.6mm x 4mm - Screen and big end            | 40            | 50           |
  
+The 1.5mm (smaller) screws work great in a 2.0mm Diameter hole.
+The 2.6mm screws work well in securing the screen, and the esp32 board.
+
 ## Pins Connection to Display 
 
 The pins used on the esp32 Dev board to the Waveshare for working code are as follows:**
@@ -76,7 +83,8 @@ Note: Font = OCR-A (same as what is used in fritzing)
 PCB had a few revisions:
 * ver 0.1 is my first PCB. Had a wrong connector pad. (Produced 10x)
 * ver 0.2 is the one with the right connector pad. (Produced 10x)
-* ver 0.3 has holes in the sides for use with Case designed with CAD engineer in August 2021. (not yet ordered)
+* ver 0.3 has holes in the sides for use with Case designed with CAD engineer in August 2021.
+* ver 0.3 has JST connector flipped 180deg. It reduces a fold in the cables.
 
 ![photo](v2021/_photos/pcb.png) 
 
@@ -91,5 +99,6 @@ PCB had a few revisions:
 # ROADMAP for v2022
 * On Custom PCB! with esp32-wroom integrated into the board (And presoldered hopefully!!!)
 * Supports battery backup
+* Case design refined - better corners, and slimmer.
 * PCB ver 0.4 have whole esp32 and connector on the same board!!
     * Use this [Schematic](https://learn.adafruit.com/huzzah32-esp32-breakout-board/downloads) or [This One](https://learn.adafruit.com/adafruit-huzzah32-esp32-feather/downloads)
