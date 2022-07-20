@@ -1,4 +1,4 @@
-# thepricedisplay.com Hardware Design
+# thepricedisplay Hardware Design
 
 Hardware Design and Data for making the price display hardware, pcb, case and general assembly.
 
@@ -12,7 +12,7 @@ Goal:
 * Unit cost needs to be less than $30!
 
 
-# **v2021 - First Iteration of the product** 
+# v2021 - First Iteration of the product** 
 
 * The first thePriceDisplay screen with 6 items on display. 
 * based upon Waveshare 2.9" ePaper Screen and an esp32 Dev Module.
@@ -35,6 +35,22 @@ Goal:
 | JST Connector which goes onto custom PCB (S8B-PH-SM4-TB)                    | $0.1      |               
 | Case!!!                                                                     | $15       |
 | TOTAL                                                                       | $75       |
+
+## Assembly Instructions
+* Solder JST Connector and an 38pin ESP32 (FEIYANG) board together. See below Pins Connection for soldering guide.
+* Test each connection between the JST and the ESP32 Pin!
+* Prepare Case with Surface Finish and Paint!
+    - Sand with 400grit wet/dry sandpaper, in water.
+    - ???
+    - ??
+    - Paint and let dry.
+    - Install screen into case. 
+    - Install PCB Assembly into case. Scres are XYY and ABZ
+    - O Ring on screws.
+    - Program PCB with latest arduino code. Custom ID for each item!
+    - Load and stop on boot screen
+    - Put in bag with USB cable.
+    - Put sticker with logo on bag!
 
 ## v2021 Part Orders
 
@@ -60,7 +76,7 @@ The pins used on the esp32 Dev board to the Waveshare for working code are as fo
 | Name               | e-Paper Wire |  ESP32 Pin |
 |--------------------|--------------|------------|
 | VCC                |  3.3V        |  [Grey]    |
-|  GND               |  GND         |  [Brown]   |
+| GND                |  GND         |  [Brown]   |
 | DIN                |  GPIO14      |  [Blue]    |
 | CLK                |  GPIO13      |  [Yellow]  |
 | CS                 |  GPIO15      |  [Orange]  |
