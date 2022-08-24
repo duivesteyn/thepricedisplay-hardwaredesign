@@ -1,4 +1,4 @@
-# thepricedisplay Hardware Design
+# thepricedisplay v2021 Hardware Design
 
 Hardware Design and Data for making the price display hardware, pcb, case and general assembly.
 
@@ -36,18 +36,22 @@ Goal:
 | Case!!!                                                                     | $15       |
 | TOTAL                                                                       | $75       |
 
-## Assembly Instructions
+## Assembly Instructions (v2021)
 * Solder JST Connector and an 38pin ESP32 (FEIYANG) board together. See below Pins Connection for soldering guide.
 * Test each connection between the JST and the ESP32 Pin!
 * Prepare Case with Surface Finish and Paint!
-    - Sand with 400grit wet/dry sandpaper, in water.
-    - ???
-    - ??
-    - Paint and let dry.
-    - Install screen into case. 
+    - Sand with 600+ grit wet/dry sandpaper, in water.
+    - Use that Nice Plastic Conditioner
+    - Install screen into top part of case. 
+
+    - Connect PCB to Screen (lose PCB on ribbon cable.)
+    - Program PCB with latest arduino code. Custom ID for each item! (TESTS SCREEN)
+        - Serial port /dev/cu.usbserial-0001
+        - Compile+upload. HOLD BOOT on BOARD for 2 secs when the Arduino Compiler says "Connecting........_____....._____." 
     - Install PCB Assembly into case. Scres are XYY and ABZ
-    - O Ring on screws.
-    - Program PCB with latest arduino code. Custom ID for each item!
+    - Top Screen side screws:
+    - Bottom Side screws: Self Tapper 1.5*4mm   with ORing below.
+    - O Ring on bottom screws. (TYPE: OD2.5*0.5-20NB mm)
     - Load and stop on boot screen
     - Put in bag with USB cable.
     - Put sticker with logo on bag!
@@ -89,8 +93,22 @@ The pins used on the esp32 Dev board to the Waveshare for working code are as fo
 * when updating it uses 0.04A (at 5V) using it for an hour on the PC consumed 13mah.
     - i.e. 17.5hrs of continual updating on a 700mah battery! which is only ~1-2% of the total cycle of the device! i.e. battery power is very effective.
 
+## v2021 Device IDs
+Schema: 8 digits. v1 starts with 1.
+Backend DB setup for these devices!
 
-## Custom PCB 
+#| n |  DeviceID  | Setup? |    Comment                          |
+#|---|------------|--------|-------------------------------------|
+#| T |  3b3a8397  |  ✅    | BMD Test Device                     |
+#| 1 |  1a934f75  |  ✅    | READY TO GO!                        |
+#| 2 |  14802ca3  |  ✅    | READY TO GO!                        |
+#| 3 |  1a49c43f  |  ✅    | READY TO GO!                        |
+#| 4 |  19c4e9b5  |  ✅    | READY TO GO!                        |
+
+
+# Manufacturing Notes
+
+## Custom PCB Design Notes
 
 Connects esp32 into a S8B-PH-SM4-TB connector. This flattens the overall design as no pins need to go vertically into the board.
 
@@ -100,7 +118,7 @@ PCB had a few revisions:
 * ver 0.1 is my first PCB. Had a wrong connector pad. (Produced 10x)
 * ver 0.2 is the one with the right connector pad. (Produced 10x)
 * ver 0.3 has holes in the sides for use with Case designed with CAD engineer in August 2021.
-* ver 0.3 has JST connector flipped 180deg. It reduces a fold in the cables.
+* ver 0.4 has JST connector flipped 180deg. It reduces a fold in the cables.
 
 ![photo](v2021/_photos/pcb.png) 
 
@@ -111,8 +129,18 @@ PCB had a few revisions:
 * ver 0.1 is the one the cad engineer made in August 2021. Designed by [janangachandima
 ](https://www.fiverr.com/janangachandima/design-any-enclosures-for-your-product?context_referrer=logged_in_homepage&source=recently_and_inspired&ref_ctx_id=e07c0e28eb930812f8da8889706c910a&context=recommendation&pckg_id=1&pos=3&context_alg=recently_viewed) on Fiverr.
 
+## Lessons Learned
+- Case too detailed. Had breakages in screw locations.
+- Didnt factor in shipping etc.
+- Self assembling takes forever.
+- changedd color at last minute and so USB cable didnt match!
 
-# ROADMAP for v2022
+## ISSUES:
+- Have ~3 boards that are bad and need reSOLDERING!!
+- Have ~5 back cases that broke!!
+
+# ROADMAP
+
 * On Custom PCB! with esp32-wroom integrated into the board (And presoldered hopefully!!!)
 * Supports battery backup
 * Case design refined - better corners, and slimmer.
