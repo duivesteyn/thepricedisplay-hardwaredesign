@@ -101,8 +101,8 @@ Backend DB setup for these devices!
 #|---|------------|--------|-------------------------------------|
 #| T |  3b3a8397  |  ✅    | BMD Test Device                     |
 #| 1 |  1a934f75  |  ✅    | READY TO GO!                        |
-#| 2 |  14802ca3  |  ✅    | READY TO GO!                        |
-#| 3 |  1a49c43f  |  ✅    | READY TO GO!                        |
+#| 2 |  14802ca3  |  ✅    | Gave to Gareth                      |
+#| 3 |  1a49c43f  |  ✅    | Gave to Ben Broyd                   |
 #| 4 |  19c4e9b5  |  ✅    | READY TO GO!                        |
 
 
